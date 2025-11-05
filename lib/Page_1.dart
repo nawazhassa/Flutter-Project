@@ -1,15 +1,15 @@
 import 'package:flutter/material.dart';
 
-class Page_2 extends StatelessWidget {
+class Page_1 extends StatelessWidget {
   // static const String id = 'Page_2';
 
-  const Page_2({super.key});
+  const Page_1({super.key});
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text("Page 2"),
+        title: const Text("Page 1"),
         backgroundColor: Colors.teal,
         foregroundColor: Colors.white,
         centerTitle: true,
@@ -18,10 +18,10 @@ class Page_2 extends StatelessWidget {
         child: TextButton(
 
           onPressed: () {
-            // Navigator.pushReplacementNamed(context, '/Page_2');
-            Navigator.pop(context);
+            Navigator.pushReplacementNamed(context, '/Page_2');
+            // Navigator.pop(context);
           },
-          child: const Text('Back to Home'),
+          child: const Text('Page 1'),
         ),
       ),
     );
