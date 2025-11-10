@@ -67,7 +67,7 @@ class _MyAppState extends State<MyApp> {
                       radius: 20,
                       backgroundImage: NetworkImage(
                         'https://images.pexels.com/photos/18858931/pexels-photo-18858931.jpeg',
-                      ),
+                      ), 
                     ),
                     title: Text('Hassan Nawaz'),
                     subtitle: Text('JinFreshup'),
